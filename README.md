@@ -18,3 +18,9 @@
 @[blackmatrix7](https://github.com/blackmatrix7)
 
 @[Trovoy](https://github.com/Trovoy)
+
+@[Code-Dramatist](https://github.com/Code-Dramatist)
+
+@[RuCu6](https://github.com/RuCu6)
+
+@[fmz200](https://github.com/fmz200)
