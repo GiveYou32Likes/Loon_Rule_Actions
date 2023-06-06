@@ -20,12 +20,12 @@ PROXY_RULES = {
     "Global": RULE_URL + "Global/Global.list",
     "Global_Domain": RULE_URL + "Global/Global_Domain.list",
     "Proxy": RULE_URL + "Proxy/Proxy.list",
-    "Proxy_Domain": RULE_URL + "Proxy/Proxy_Domain.list",
-    "Lan": RULE_URL + "Lan/Lan.list"
+    "Proxy_Domain": RULE_URL + "Proxy/Proxy_Domain.list"
 }
 DIRECT_RULES = {
     "ChinaMax": RULE_URL + "ChinaMax/ChinaMax.list",
-    "ChinaMax_Domain": RULE_URL + "ChinaMax/ChinaMax_Domain.list"
+    "ChinaMax_Domain": RULE_URL + "ChinaMax/ChinaMax_Domain.list",
+    "Lan": RULE_URL + "Lan/Lan.list"
 }
 
 HEADER = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
