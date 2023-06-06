@@ -12,7 +12,7 @@ def merge_and_deduplicate_files(path):
     """
     output_file_path = f"{path}/{os.path.basename(path)}.rule"
     with open(output_file_path, 'w', encoding='utf8') as out_f:
-        data_set = set()
+        data_set = set() # 使用集合去重
         for file_name in os.listdir(path):
             file_path = os.path.join(path, file_name)
             if os.path.isfile(file_path):
