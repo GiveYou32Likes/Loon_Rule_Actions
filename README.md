@@ -1,4 +1,4 @@
-# Rule_Actions
+# Loon_Rule_Actions
 ## 功能描述
 * 拉取合并规则，并生成Loon订阅链接，方便导入Loon规则中使用。
 * 本文所采用的规则基本来自与blackmatrix7的[ios分流项目](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon)
