@@ -12,7 +12,6 @@ REJECT_RULES = {
     "MyBlockAds": RULE_URL1 + "Rules/MyBlockAds.list",
     "Adblock4limbo": RULE_URL1 + "Rules/Adblock4limbo.list",
     "anti-AD": RULE_URL2 + "master/anti-ad-surge2.txt",
-    "BlockHttpDNS": RULE_URL+"BlockHttpDNS/BlockHttpDNS.list",
     "fenliu": RULE_URL3 + "filter/fenliu.list"
 }
 PROXY_RULES = {
