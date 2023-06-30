@@ -11,7 +11,7 @@ RULE_URL3 = "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Quantumu
 REJECT_RULES = {
     "MyBlockAds": RULE_URL1 + "Rules/MyBlockAds.list",
     "Adblock4limbo": RULE_URL1 + "Rules/Adblock4limbo.list",
-    "anti-AD": RULE_URL2 + "master/anti-ad-surge2.txt",
+    "anti-AD": RULE_URL2 + "master/anti-ad-surge.txt",
     "fenliu": RULE_URL3 + "filter/fenliu.list"
 }
 PROXY_RULES = {
