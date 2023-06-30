@@ -17,7 +17,8 @@ def merge_and_deduplicate_files(path):
             file_path = os.path.join(path, file_name)
             if os.path.isfile(file_path):
                 with open(file_path, 'r', encoding='utf8') as in_f:
-                    lines = [line.strip().replace(' ','').replace('$,reject','').replace(',REJECT','').replace('HOST,','DOMAIN,').replace('host,','DOMAIN,').replace('HOST-SUFFIX','DOMAIN-SUFFIX').replace('host-suffix','DOMAIN-SUFFIX').replace('host-keyword','DOMAIN-KEYWORD').replace('HOST-KEYWORD','DOMAIN-KEYWORD').replace('ip-cidr','IP-CIDR').replace('IP6-CIDR','IP-CIDR6') for line in in_f.readlines() if not line.startswith("#")]
+                    lines = lines = [line.strip().replace(' ','').rstrip(',reject').replace(',REJECT','').replace('HOST,','DOMAIN,').replace('host,','DOMAIN,').replace('HOST-SUFFIX','DOMAIN-SUFFIX').replace('host-suffix','DOMAIN-SUFFIX').replace('host-keyword','DOMAIN-KEYWORD').replace('HOST-KEYWORD','DOMAIN-KEYWORD').replace('ip-cidr','IP-CIDR').replace('IP6-CIDR','IP-CIDR6') for line in in_f.readlines() if not line.startswith("#")]
+
                     data_set.update(lines)
         data_list = sorted(data_set)
         out_f.writelines(line + '\n' for line in data_list if line.strip())
