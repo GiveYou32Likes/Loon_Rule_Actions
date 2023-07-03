@@ -6,12 +6,15 @@
 ;DOMAIN,inspiringaccurate.com
 ;DOMAIN,track.aso1.net
 ;DOMAIN-KEYWORD,business-cdn.shouji.sogou.com
+;DOMAIN-KEYWORD,dat8
+;DOMAIN-KEYWORD,jads
 ;DOMAIN-KEYWORD,mmiyue
 ;DOMAIN-KEYWORD,vidoza
 ;DOMAIN-KEYWORD,wixsite.com
 ;DOMAIN-KEYWORD,xn--2qux23c9ziyrq
 ;DOMAIN-SUFFIX,107iwh.cn:4032
 ;DOMAIN-SUFFIX,ads.bullionyield.com
+;DOMAIN-SUFFIX,ai.m.taobao.com
 ;DOMAIN-SUFFIX,byteimg.com
 ;DOMAIN-SUFFIX,cc58.oss-cn-beijing.aliyuncs.com
 ;DOMAIN-SUFFIX,cloudfront.net
@@ -22,6 +25,7 @@
 ;DOMAIN-SUFFIX,qinhemuye.com:443
 ;DOMAIN-SUFFIX,streamtape.com
 ;DOMAIN-SUFFIX,suzihaza.com
+;DOMAIN-SUFFIX,t.uc.cn
 ;DOMAIN-SUFFIX,wixstatic.com
 ;DOMAIN-SUFFIX,www.avple.video
 ;DOMAIN-SUFFIX,xn--xhq9mt12cf5v.xn--io0a7i:4443
