@@ -46,6 +46,7 @@ DOMAIN,ad.51wnl-cq.com
 DOMAIN,ad.api.moji.com
 DOMAIN,ad.bn.netease.com
 DOMAIN,ad.chelaile.net.cn
+DOMAIN,ad.cyapi.cn
 DOMAIN,ad.hpplay.cn
 DOMAIN,ad.k.21cn.com
 DOMAIN,ad.mobile.youku.com
@@ -374,6 +375,7 @@ DOMAIN,umessage-online-zb.uc.cn
 DOMAIN,ups.ksmobile.n
 DOMAIN,v.uc.cn
 DOMAIN,v1.log.moji.com
+DOMAIN,vali.cp31.ott.cibntv.net
 DOMAIN,vcardsdkservice.vivo.com.cn
 DOMAIN,vdapprecv.app.cntvwb.cn
 DOMAIN,voice-service.uc.cn
@@ -74132,6 +74134,7 @@ IP-CIDR,115.29.247.48/32
 IP-CIDR,116.206.22.7/32
 IP-CIDR,116.55.227.242/32
 IP-CIDR,117.144.242.32/32
+IP-CIDR,117.161.156.227/32
 IP-CIDR,117.177.248.17/32
 IP-CIDR,117.177.248.41/32
 IP-CIDR,117.25.133.209/32

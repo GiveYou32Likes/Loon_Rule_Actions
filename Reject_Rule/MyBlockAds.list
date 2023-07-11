@@ -1,4 +1,4 @@
-# 2023-05-22 16:45
+# 2023-07-11 09:08
 
 # ======= A ======= #
 ## 阿里云
@@ -32,6 +32,12 @@ HOST, mall.bilibili.com, REJECT
 HOST, passport.bilibili.com, REJECT
 
 # ======= C ======= #
+# 菜鸟
+HOST, iyes.youku.com, REJECT
+HOST, vali.cp31.ott.cibntv.net, REJECT
+IP-CIDR, 117.161.156.227/32, REJECT
+# 彩云天气
+HOST, ad.cyapi.cn, REJECT
 # ChatGPT
 HOST, o33249.ingest.sentry.io, REJECT
 # Clue 智库
